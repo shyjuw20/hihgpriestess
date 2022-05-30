@@ -362,7 +362,6 @@ h6 {
 }
 
 .upper-bar .inner-bar {
-    background-color: #7b6cd5;
 	color: #f1f3f1;
 	padding: 10px 15px;
     border-radius: 0 0 8px 8px;
@@ -1416,10 +1415,15 @@ h6 {
     margin-bottom: 30px;
 }
 
+.events .event .event-img {
+    padding: 10px;
+}
+
 .events .event .event-img img {
     display: block;
 	max-width: 100%;
 	height: auto;
+    border-radius:20px;
 }
 
 .events .event .event-content {
